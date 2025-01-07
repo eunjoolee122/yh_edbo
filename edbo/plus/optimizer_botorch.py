@@ -270,7 +270,7 @@ class EDBOplus:
             return original_df
 
         # Run the BO process.
-        priority_list = self._model_run_iter(
+        priority_list = self._model_run(
                 data=data,
                 df_train_x=df_train_x,
                 df_test_x=df_test_x,
